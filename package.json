@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Anna Rogers design portfolio",
+  "main": "y",
+  "scripts": {
+    "test": "y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [],
+  "author": "Anna Rogers",
+  "license": "UNLICENSED",
+  "dependencies": {}
+}
