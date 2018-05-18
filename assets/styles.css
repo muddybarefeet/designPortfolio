@@ -5,28 +5,7 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-}
-
-a {
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
-}
-
-a:hover, a:focus {
-  color: #fcbd20;
-}
-
-hr {
-  max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
-}
-
-hr.light {
-  border-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -35,18 +14,121 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-family: 'Arvo', serif;
 }
 
-/*p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}*/
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1rem;
+}
 
-section .index {
-  padding: 100px 0;
+a {
+  color: #000;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.section, .article-header, .issue-section {
+  margin: 4% 10%;
+}
+
+.section .index, .article-header .index {
+  padding: 40px 10% 60px 10%;
+}
+
+.article-header {
+  padding: 4% 0;
+}
+
+.home-banner {
+  margin: 150px 10% 0 10%;
+}
+
+.issue-image {
+  width: 50%;
+}
+
+.issue-image-two {
+  width: 40%;
+}
+
+.about-top-space {
+  height:130px;
+}
+
+/*Nav bar*/
+nav li a {
+  font-family: 'Arvo', serif;
+}
+
+nav li a:hover {
+  padding-bottom: 0 !important;
+  border-bottom: 8px solid turquoise;
+}
+
+.link, .link:hover {
+  text-decoration: underline;
+}
+
+.white-copy, .white-copy a {
+  color: white;
+}
+
+.width-80-remove-xs {
+  width: 70%;
+}
+
+.fa-envelope:hover, .fa-github-square:hover, .fa-linkedin:hover, .fa-envelope-square:hover {
+  cursor: pointer;
+  color: #666;
+}
+
+.fa-envelope, .fa-github-square, .fa-linkedin, .fa-envelope-square {
+  cursor: pointer;
+  color: #4A4A4A;
+}
+
+.footer {
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.footer a {
+  padding: 0 5px;
+}
+
+@media(max-width:767px){
+  .section, .article-header, .issue-section {
+    margin:  4% 0px;
+  }
+  .width-80-remove-xs {
+    width: 100%;
+  }
+  .issue-image, .issue-image-two {
+    width: 100%;
+  }
+  .issue-image-two {
+    margin-top: 5px;
+  }
+  .bannaer-image {
+    margin-top: 20px;
+  }
+  .center-xs {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .about-top-space {
+    height:100px;
+  }
 }
 

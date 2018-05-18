@@ -5,8 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/images/feetOutline.png" type="image/x-icon">
 
-    <title>Anna Rogers · Gnosis</title>
+    <title>Anna Rogers · Portfolio</title>
     
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,6 +17,7 @@
     <!-- font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans:300" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/styles.css" rel="stylesheet">
@@ -24,18 +26,18 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: #fff; border-bottom: 1px dashed #ccc">
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: #fff;">
       <div class="container about-me">
-        <a class="navbar-brand" href="index.html">Anna Rogers</a>
+        <a class="navbar-brand" href="index.html"><img src="assets/images/smallFeet.png" alt=""></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="index.html">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="index.html">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="ui.html">UI</a>
@@ -48,45 +50,172 @@
       </div>
     </nav>
 
-    <header style="padding:160px 0 100px 0; background-color: #ccc" class="text-center">
-      <div class="container">
+    <div style="height:100px"></div>
+
+    <!-- MAIN CONTENT -->
+
+    <header class="text-left article-header" style="background-color:#072A3E" id="firstProject">
+      <div class="container index">
         <div class="row">
-          <div style="color:white" class="col-md-8 mx-auto">
-            <!-- image -->
-            <h1>Gnosis (Current)</h1>
-            <p>Flash card app for medical students</p>
+          <div class="col-md-6 white-copy">
+            <div style="height:30px"></div>
+            <h1>Gnosis</h1>
+            <p>Flash-card app for medical students</p>
+            <a href="chase.html" class="link">Learn more</a>
+          </div>
+          <div class="col-md-6 bannaer-image">
+            <img src="assets/images/gnosis/gnosisScreens.png" alt="" width="100%">
           </div>
         </div>
       </div>
     </header>
 
-    <section class="text-left">
-      <div class="container" style="padding: 5% 16%;">
-        <h2>Inspiration</h2>
-        <p>Medical friends etc.</p>
-        
-        <h2>Concept</h2>
+    <!-- MAIN CONTENT -->
+
+    <div class="container">
+      
+      <!-- Overview -->
+      <section class="section">
+        <h2>Project Overview</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Tools</h3>
+            <p>Sketch and InVision</p>
+            <h3>Role</h3>
+            <p>UX Designer</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Platform</h3>
+            <p>Mobile</p>
+            <h3>Brief</h3>
+            <p>Create an intuitive revision card app for medical students in the UK</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- TLDR -->
+      <section>
+        <div class="section">
+          <h2>TL;DR</h2>
+          <p>Gnosis is a mobile app that brings curated content developed by practicing specialists, in manageable chunks, to medical students. I worked to define the app's scope, requirements & features, information architecture, interactions, and visual design. In the process, the biggest design problems I faced were in the microinteractions between selecting how well you knew your answer and moving between the questions and answers.</p>
+          <p>The content is still being collated but, the app should be available on the app store by the end of this year.</p>
+        </div>
+
+        <div style="background-color: #eee; height: 200px;" class="text-center">
+          <!-- GIFF HERE -->
+        </div>
+      </section>
+
+      <!-- GOALS -->
+      <section class="section">
+        <h2>The Look and Feel</h2>
+        <p>I wanted to create a playful and visually attractive app to make revising fun/enjoyable. </p>
+        <img style="padding:40px"  src="assets/images/gnosis/iconSet.png" alt="" width="100%">
+      </section>
+
+      <!-- DESIGN PROCESS -->
+
+      <section class="section">
+        <h2>Design Process</h2>
+        <img src="assets/images/gnosis/designProcess.png" width="100%" alt="">
+      </section>
+
+      <!-- RESEARCH -->
+
+      <section class="section">
+        <h2>Empathize</h2>
+        <h3>Assumptions</h3>
         <ul>
-          <li>Look and feel</li>
-          <li>Flows</li>
-          <li>Branding</li>
+          <li>Students want to spend time when they are commuting/travelling revising small managebale chunks of content</li>
+          <li>Students want to see their progress as they get familiar with more material</li>
         </ul>
-        <!-- images of flows etc -->
+        <p>To test our assumptions we conducted user research on 12 medical students.</p>
+      </section>
+      
+      <section class="section">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Synthesis</h2>
+            <h3>From user testing we discovered:</h3>
+            <ol>
+              <li>Flash cards are not popular method of revision because they are not portable—a large number are needed for any one subject</li>
+              <li>Time consuming to compile and write</li>
+              <li>Online cards not reputable</li>
+            </ol>
+            <p>To test our assumptions we conducted user research on 12 medical students.</p>
+
+            <h3>Hypothesis</h3>
+            <p><span class="underline">If</span> we make a revision card app that contains reputable content, delivered in manageble chunks, that users can carry with them, <span class="underline">then</span> we will have an app that medical students will want to use.</p>
+
+
+          </div>
+          <div class="col-md-4">
+            <!-- TODO: post it not stickes -->
+
+          </div>
+        </div>
+      </section>
+      
+      <!-- Synthesis -->
+      <section class="section">
+        <h2>Idiate</h2>
+        <p>Once we had collated the user data and understood what we needed to achieve, it was time to get out pen and paper and start solving these problems!</p>
         
-        <!-- <h2>User testing</h2> -->
-        <!-- when do update this to inlice -->
+        <!-- SKETCHES AND GROUP IMAGE -->
+      </section>
+    
+      <!-- PROTOTYPE -->
 
-        <h2>App</h2>
-        <!-- images -->
+      <section class="section">
+          <h2>Prototype</h2>
+
+          <img src="assets/images/gnosis/wires.png" alt="" width="100%" style="margin-bottom: 20px">
+
+          <p>Once we had thought through the requirements we started making wireframes of the designs we felt worked best. This raised questions which we took to user testing.</p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>Prototyping in InVision was invaluable for solving how the interactions between the cards would work as well as the other microinteractions. One of the hardest problems to solve was how the interaction of selecting how well you knew your answer and moving between the questions and answers.</p>
+            </div>
+            <div class="col-md-6">
+              <!-- TODO: GIFF -->
+            </div>
+          </div>
+      </section>
+
+      <section class="section">
+        <h2>Validate</h2>
+        <p>We went through several itterations as this app was built. Some of the questions raised were:</p>
+        <!-- question 1 -->
+        <h3>What options should the user be presented with? </h3>
+        <p>User testing showed that students wanted to be able to ‘bucket’ questions into know, sort-of know and don’t know categories that can be re-visited later. For these three categories we decided to use a traffic light system: Red: Don’t know, Yellow: Sort-of-know, Green: Know
+Users also said it would be nice to go through just the cards they had put in one of the categories as well as the whole deck.</p>
         
-        <h4>Watch this space :)</h4>
+        <!-- question 2 -->
+        <h3>Should the user be able to move backwards and forwards in the deck?</h3>
+        <p>User testing said yes the user wants to be able to move around the deck like they would with revision cards.</p>
 
-      </div>
-      <!-- TODO: link to next project -->
-    </section>
+        <!-- question 3 -->
+        <h3>What do we want on a deck overview page?</h3>
+        <p>Users wanted to a sense of how well they know the subject. Does this want to be a history, e.g. a line chart of progress over time, or should it be the last time they played the game?
+We realised we should also include a breakdown how they answered each card the last time they revised. These could then link to the the subset of questions. They should also be able to go through all the deck again.</p>
 
+      </section>
 
-    <!-- Plugin JavaScript -->
+      <section class="section">
+        <h2>Gnosis</h2>
+
+        <!-- TODO: gif of app -->
+
+      </section>
+
+    </div>
+
+    <footer class="text-center footer">
+      <a href="https://www.linkedin.com/in/muddybarefeet"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/muddybarefeet"><i class="fab fa-github-square fa-2x"></i></a>
+      <a href="mailto:2muddybarefeet@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></i></a>
+    </footer>
 
     <!-- Custom scripts for this template -->
     <script src="js/script.js"></script>
